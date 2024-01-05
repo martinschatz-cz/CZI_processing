@@ -81,8 +81,8 @@ class FileProcessor:
 
 if __name__ == "__main__":
     # Example usage
-    folder_path = "F:\\PROJECTS\\Axioscan_Analysis\\Vojtech_Abraham\\CZI_processing\\libczi\\test"
-    output_folder = "F:\\PROJECTS\\Axioscan_Analysis\\Vojtech_Abraham\\CZI_processing\\libczi\\out"
+    folder_path = "F:\\PROJECTS\\Axioscan_Analysis\\Vojtech_Abraham\\CZI_processing\\230518_ML_pyl_OB"
+    output_folder = "F:\\PROJECTS\\Axioscan_Analysis\\Vojtech_Abraham\\CZI_processing\\libczi_output"
     num_processes = 4
 
     file_processor = FileProcessor(folder_path, output_folder, num_processes, roi_width=1920, roi_height=1600)
